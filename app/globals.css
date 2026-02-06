@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* ============================= */
+/*     NAVY DARK BLUE THEME      */
+/* ============================= */
+@theme {
+  /* ===== Backgrounds ===== */
+  --color-bg-main: #0A0F1F;        /* Deep Navy – Body / Hero */
+  --color-bg-surface: #11172B;     /* Navy Surface – Cards / Navbar */
+  --color-bg-divider: #1B2340;     /* Borders / Dividers */
+
+  /* ===== Text ===== */
+  --color-text-primary: #EAF0FF;   /* Soft Ice White */
+  --color-text-secondary: #9AA6C3; /* Cool Blue Gray */
+  --color-text-muted: #6E7A99;     /* Muted Navy Gray */
+
+  /* ===== Accents ===== */
+  --color-accent-primary: #3A66FF; /* Electric Navy Blue */
+  --color-accent-secondary: #2FA4FF; /* Sky Navy */
+
+  /* ===== States ===== */
+  --color-accent-hover: #2F55E8;
+  --color-accent-active: #243FC4;
+}
